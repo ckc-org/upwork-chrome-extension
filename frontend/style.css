@@ -1,0 +1,46 @@
+body {
+    width: 400px;
+    /* your desired width */
+    height: 600px;
+    position: relative;
+    vertical-align: middle;
+    padding: 10px 25px;
+    margin: 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-btn {
+    margin-top: 12px;
+    background: #108a00; 
+    border: none;
+    border-radius: 20px;
+    padding: 4px 24px;
+    color: white;
+    font-weight: 900;
+    height: 50px;
+    cursor: pointer;
+}
+.submit-btn:hover {
+    opacity: .9;
+}
+.submit-btn:active {
+    transform: scale(.98)
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin-top: 5;
+}

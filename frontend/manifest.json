@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Upwork x OpenAi",
+    "description": "This is a basic Chrome extension.",
+    "version": "1.0.0",
+    "author": "Samuel Wood",
+    "action": {
+        "default_title": "Upwork x OpenAi",
+        "default_popup": "index.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.upwork.com/ab/proposals/job/*"
+            ],
+            "js": ["content.js"],
+            "css": ["upworkPageStyles.css"],
+            "run_at": "document_end"
+        }
+    ],
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "storage"
+    ]
+}

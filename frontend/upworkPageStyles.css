@@ -1,0 +1,18 @@
+/* This controls/overrides the styles on the upwork page */
+
+.generate-btn {
+    background: #108a00; 
+    border: none;
+    border-radius: 20px;
+    padding: 4px 24px;
+    color: white;
+    font-weight: 900;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.generate-btn:hover {
+    opacity: .9;
+}
+.generate-btn:active {
+    transform: scale(.98)
+}

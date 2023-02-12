@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My HTML Page</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <div>
+        <h1>
+            Your Details
+        </h1>
+        <p>
+            These details will be used to generate responses
+        </p>
+    </div>
+    <form id="form" class="form">
+        <div class="row">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+
+        <div class="row">
+            <label for="bio">Bio:</label>
+            <textarea type="text" id="bio" name="bio" rows="4"></textarea>
+        </div>
+
+        <div class="row">
+            <label for="technologies">Technologies:</label>
+            <input type="text" id="technologies" name="technologies">
+        </div>
+
+        <div class="row">
+            <label for="voice_example">Voice Example:</label>
+            <textarea type="text" id="voice_example" name="voice_example" rows="4"></textarea>
+        </div>
+
+        <div class="row">
+            <label for="signature">Prefered Signature:</label>
+            <textarea type="text" id="signature" name="signature" rows="4"></textarea>
+        </div>
+
+        <div class="row">
+            <label for="projects">Project History:</label>
+            <textarea type="text" id="projects" name="projects" rows="4"></textarea>
+        </div>
+
+        <div class="row">
+            <input type="submit" value="Save Details" class="submit-btn">
+        </div>
+    </form>
+
+    <script src="background.js"></script>
+</body>
+
+</html>
